@@ -41,21 +41,18 @@
 
 <div class="form-container">
 <h2>سجّل بياناتك الآن</h2>
-<form action="#" method="post">
+<form action="https://formsubmit.co/example@gmail.com" method="POST">
     <input type="text" name="name" placeholder="الاسم" required>
     <input type="tel" name="phone" placeholder="رقم التواصل" required>
     <input type="email" name="email" placeholder="البريد الإلكتروني" required>
     <input type="text" name="nationality" placeholder="الجنسية (اختياري)">
-    
-    <label for="relation">نوع العلاقة</label>
-    <select name="relation" id="relation" required>
+    <select name="relation" required>
         <option value="" disabled selected>اختر نوع العلاقة</option>
         <option value="owner">مالك - يريد البيع</option>
         <option value="tenant">مستأجر - يريد الإيجار</option>
         <option value="agency">مكتب - يريد عرض خدمات</option>
     </select>
-
-    <button type="submit" class="submit-btn">إرسال البيانات</button>
+    <button type="submit">إرسال البيانات</button>
 </form>
 </div>
 
